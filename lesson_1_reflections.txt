@@ -1,0 +1,66 @@
+1.6查看文件的两个版本之间的差异如何帮助你了解引入的错误？
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+查看不同之处可以使我直观的查看到引入文件时文件名称是否错误，或者引用的语句是否错误。
+
+
+1.8从长远来看，能轻松访问文件的整个历史记录将如何提高编程者的效率？
+当编程者想要放弃当前思路的时候，只要通过访问历史纪录就可以轻松改到之前的文件中，比起手动的根据自己思维方式的改动更不容易出错，更方便快捷。
+
+
+1.15你认为，手动选择何时创建提交（像在 Git 中做的那样）与自动保存版本（如 Google Docs 所做的那样）各有何优缺点？
+a.手动选择提交：较为灵活，可以自己控制何时提交，但有时可能会忘记提交
+b.自动保存版本：在选择何时自动保存上会有一定困难，同时可能有些需要保存的时候系统没有帮你自动保存。
+
+
+1.18如何看待一些版本控制系统（例如Git）允许在一次提交中保存多个文件，而其他系统（例如 Google Docs）单独对待每个文件？
+不同控制系统主要面向的用户不同？比如对于开发人员来说，各个开发文件之间大多有一定的关联性，但对于文职工作人员来说，各个文件之间的关联性可能就没有那么大。
+
+1.22如何使用命令 git log 和 git diff 来查看文件的历史记录？
+a、使用cd命令访问到你需要查看文件不同之处的文件夹
+b、使用git log 查看过去的所有更改记录
+c、使用git diff firstID secondId 命令来查看两个文件的具体的不同之处
+
+1.26使用版本控制，如何让你更有信心进行有可能会造成破坏的更改？
+a、使用版本控制后，可以随时查看更改之前的版本并恢复，因此可以放心的更改。
+
+1.31现在你已设置了工作空间，你想尝试使用 Git 来做些什么？
+写代码啊
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+
+
+
+
+
+
+
