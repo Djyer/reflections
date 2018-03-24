@@ -7,3 +7,8 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 手动的拉取更改可以使得我明确我要拉取的内容。
+
+3.14说明Fork、克隆和分支之间的不同。何时使用某种功能而不是另一种？
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+fork仅用于GitHub网站内复制他人的仓库，本地不会有。克隆一般是指从GitHub上克隆，或者在本地克隆。分支是用于你的文件目前的版本不能够满足你的需要时，你想要重新进行另一版本的大幅度更改是使用。
