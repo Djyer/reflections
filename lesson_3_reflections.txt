@@ -16,3 +16,7 @@ fork仅用于GitHub网站内复制他人的仓库，本地不会有。克隆一�
 3.22拥有远程分支的上次已知状态的副本（存储在本地）有何好处？
 What is the benefit of having a copy of the last known state of the remote stored locally?
 可以通过对比本地副本与本地最后一次的commit来查看文件是否有更改，从而与他人进行协作
+
+3.25如何在不使用Git或GitHub的情况下开展协同？哪种做法更容易？哪种做法更困难？
+How would you collaborate without using Git or GitHub?  What would be easier,and what would be harder?
+每当发生更改时，都将整个文件打包，发送给和我们一起协作的人。然后语音或者留言告诉对方自己做了什么更改。git更容易些。
