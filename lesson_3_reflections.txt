@@ -12,3 +12,7 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 fork仅用于GitHub网站内复制他人的仓库，本地不会有。克隆一般是指从GitHub上克隆，或者在本地克隆。分支是用于你的文件目前的版本不能够满足你的需要时，你想要重新进行另一版本的大幅度更改是使用。
+
+3.22拥有远程分支的上次已知状态的副本（存储在本地）有何好处？
+What is the benefit of having a copy of the last known state of the remote stored locally?
+可以通过对比本地副本与本地最后一次的commit来查看文件是否有更改，从而与他人进行协作
